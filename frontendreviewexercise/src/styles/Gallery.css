@@ -1,0 +1,15 @@
+.Gallery{
+    transition: transform .1s;
+    
+}
+.Gallery li:hover{
+    transform: scale(1.2);
+    margin: 50px;
+}
+li{
+    transition: 1s;
+}
+
+.Gallery li{
+    margin: 20px;
+}
