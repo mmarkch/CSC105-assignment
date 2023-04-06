@@ -2,7 +2,7 @@ import React from 'react'
 import { Box } from '@mui/material'
 import Home from "../components/Home"
 import Todo from "../components/Todo"
-import BottomNav from "../components/ButtomNav"
+import BottomNav from "../components/BottomNav"
 
 export const TodoPage = () => {
   return (
