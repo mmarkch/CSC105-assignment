@@ -72,7 +72,7 @@ function Todo() {
         <Box sx={wrapperTodoListStyle}>
           <Box sx={addNewTaskBarStyle} onClick={handleOpen}>
             + Add New Tasks
-          </Box>
+          </Box>          
           {todo.map((item, index) => {
             return <CardList todo={item} key={index} setState={setTodo} state={todo} />;
           })}
